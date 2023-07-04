@@ -1,0 +1,28 @@
+{
+  "name": "nodejs_webshop",
+  "version": "1.0.0",
+  "description": "\"# NodeJS_webshop\"",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mihaela22/NodeJS_webshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mihaela22/NodeJS_webshop/issues"
+  },
+  "homepage": "https://github.com/mihaela22/NodeJS_webshop#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2"
+  }
+}
