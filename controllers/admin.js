@@ -28,6 +28,7 @@ exports.getEditProduct = (req, res, next) => {
     if (!product) {
       return res.redirect("/");
     }
+
     res.render("admin/edit-product", {
       pageTitle: "Edit Product",
       path: "/admin/edit-product",
@@ -66,6 +67,6 @@ exports.getProducts = (req, res, next) => {
 
 exports.postDeleteProduct = (req, res, next) => {
   const prodId = req.body.productId;
-  Product.delete(prodId);
+  Product.deleteById(prodId);
   res.redirect("/admin/products");
 };
